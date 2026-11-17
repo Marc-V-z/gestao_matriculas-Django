@@ -1,8 +1,7 @@
 ## Gestão de Alunos 
 
-Uso de Django
-
-uso de Ambiente virtual venv
+- Uso de Django
+- Uso de Ambiente virtual venv
 
 ---
 Para rodar servior:
