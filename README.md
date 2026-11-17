@@ -12,6 +12,10 @@ comandos manage.py:
 - ```migrate```
 - ```startapp```
 
-Padrão Django: **MTV** *(Model, Tamplete, View)*
+Padrão Django: **MVT** *(Model, View, Tamplete)*
 (Variação de MVC)
 View Front-end Temporária.
+
+```python
+#Codes
+```
