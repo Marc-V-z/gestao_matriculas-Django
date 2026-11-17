@@ -1,9 +1,10 @@
 ## Gestão de Alunos 
 
 Uso de Django
+
 uso de Ambiente virtual venv
 
-
+---
 Para rodar servior:
 '''python manage.py runserver'''
 
