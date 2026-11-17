@@ -1,0 +1,23 @@
+{% extends 'academico/base.html' %}
+
+{% block titulo %}Cursos{% endblock %}
+
+{% block conteudo %}
+<h1>Cursos cadastrados</h1>
+<ul>
+    {% for curso in cursos %}
+        <li>
+            <strong>{{ curso.titulo }}</strong>
+            <p>{{ curso.descricao }}</p>
+            Alunos matriculados:
+            {% for aluno in curso.alunos.all %}
+                {{ aluno.nome }} {{ aluno.sobrenome }}{% if not forloop.last %}, {% endif %}
+            {% empty %}
+                nenhum aluno
+            {% endfor %}
+        </li>
+    {% empty %}
+        <li>Nenhum curso cadastrado.</li>
+    {% endfor %}
+</ul>
+{% endblock %}
